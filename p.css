@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, 'Times New Roman', Times, serif;
+    margin: 5px;
+    padding: 0;
+    background-color: beige;
+  }
+  
+  header, footer {
+    background-color: #5336d1;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav {
+    background-color: #0f0f0f;
+    color: white;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 100px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 8px;
+  }
+
+  form{
+    padding: 8px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+
+.img-jewellery {
+  width: 1140px;
+  height: 300px;
+  margin: 10px;
+}
+
+.img-blazer {
+  width: 290px;
+  height: 300px;
+  margin: 10px;
+}
+
+.img-scarf {
+  width: 400px;
+  height: 300px;
+  margin: 10px;
+}
+.img-clothline {
+  width: 400px;
+  height: 300px;
+  margin: 10px;
+}
+.img-3necklace {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+}
+.img-asaprocky {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+}
+.img-boots{
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+}
+.img-monochrome {
+  width: 500px;
+  height: 250px;
+  margin: 10px;
+}
+.img-floralprints {
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+}
+.img-kanyewest {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+}
+.img-serum {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.img-facecream{
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.img-facemask {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.img-papaya {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.img-smile {
+  width: 200px;
+  height :200px;
+  margin: 10px;
+}
+.img-skincare {
+  width: 200px;
+  height :200px;
+  margin: 10px;
+}
+.img-pimple {
+  width: 200px;
+  height :200px;
+  margin: 10px;
+}
+.img-aloevera {
+  width: 200px;
+  height :200px;
+  margin: 10px;
+}
+.img-melanin {
+  width: 200px;
+  height :200px;
+  margin: 10px;
+}
+.img-supplements {
+  width: 200px;
+  height :200px;
+  margin: 10px;
+}
+  fieldset {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  legend {
+    font-weight: bold;
+  }
+  .paragraph span {
+    display: block;
+    opacity: 0;
+    animation: reveal 0.5s forwards var(--d);
+}
+@keyframes reveal {
+    from {
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
